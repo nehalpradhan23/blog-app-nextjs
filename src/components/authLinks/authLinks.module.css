@@ -1,5 +1,9 @@
-.link {
+/* .link {
   cursor: pointer;
+}
+
+.link:hover{
+  background: blue;
 }
 
 .burger {
@@ -41,4 +45,4 @@
   .link{
     display: none;
   }
-}
+} */
