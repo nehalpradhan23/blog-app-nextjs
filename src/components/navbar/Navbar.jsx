@@ -8,22 +8,27 @@ import ThemeToggle from "../themeToggle/ThemeToggle";
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.social}>
+      {/* <div className={styles.social}>
         <Image src={"/facebook.png"} alt="facebook" width={24} height={24} />
         <Image src={"/instagram.png"} alt="facebook" width={24} height={24} />
         <Image src={"/youtube.png"} alt="facebook" width={24} height={24} />
-      </div>
+      </div> */}
       <div className={styles.logo}>Blog App</div>
       <div className={styles.links}>
-        <ThemeToggle/>
-        <Link href={"/"} className={styles.link}>Home</Link>
-        <Link href={"/"} className={styles.link}>Contact</Link>
-        <Link href={"/"} className={styles.link}>About</Link>
-        <AuthLinks/>
+        <ThemeToggle />
+        <Link href={"/"} className={styles.link}>
+          Home
+        </Link>
+        {/* <Link href={"/"} className={styles.link}>
+          Contact
+        </Link>
+        <Link href={"/"} className={styles.link}>
+          About
+        </Link> */}
+        <AuthLinks />
       </div>
     </div>
   );
 };
 
 export default Navbar;
-

@@ -33,7 +33,8 @@ const AuthLinks = () => {
           <Link href="/">Home</Link>
           <Link href="/">About</Link>
           <Link href="/">Contact</Link>
-          {status === "notauthenticated" ? (
+          {/* {status === "notauthenticated" ? ( */}
+          {status === "unauthenticated" ? (
             <Link href="/login">Login</Link>
           ) : (
             <>
